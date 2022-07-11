@@ -17,7 +17,7 @@ updateTodo(
     completed: false,
   },
   {
-    completed: false,
+    completed: true,
   }
 );
 
