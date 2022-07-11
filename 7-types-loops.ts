@@ -4,7 +4,48 @@ type User = {
   isAdmin?: boolean;
 }
 
-type NewType<T> = {[P in keyof T]: T[P]}
+type NewUser = any
 
-type NewUserType = NewType<User>;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// {[Prop in keyof User]: User[Prop]}

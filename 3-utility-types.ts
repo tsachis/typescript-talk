@@ -6,27 +6,20 @@ interface Todo {
   completed: boolean;
 }
 
-function updateTodo(todo: Todo, partialTodo: Partial<Todo>): Todo {
-  return {...todo, ...partialTodo};
+function updateTodo(todo: Todo, partialTodo: any): Todo {
+  return { ...todo, ...partialTodo };
 }
 
-updateTodo({
-  title: "some title",
-  description: "",
-  completed: false
-}, {
-  completed: false
-})
-
-
-
-
-
-
-
-
-
-
+updateTodo(
+  {
+    title: "some title",
+    description: "",
+    completed: false,
+  },
+  {
+    completed: false,
+  }
+);
 
 
 
@@ -62,10 +55,8 @@ updateTodo({
 // type PickTodo = Pick<Todo, "title" | "completed">;
 
 // type OmitTodo = Omit<Todo, "title" | "completed">;
- 
-// type ReadonlyTodo = Readonly<Todo>;
 
-// // //use Record instead
+// type ReadonlyTodo = Readonly<Todo>;
 
 // function toString(obj: {[key: string]: any}) {
 //   return JSON.stringify(obj);

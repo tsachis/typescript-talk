@@ -1,7 +1,6 @@
-type isNumber<T> = T extends number ? boolean : undefined;
+type isNumber<T> = true
 
-type num = isNumber<2>
-type notNum = isNumber<"2">
+type IsNum = isNumber<30>
 
 
 
@@ -42,8 +41,6 @@ type notNum = isNumber<"2">
 
 
 
-type JiraTicketsFormat<T> = T extends `${string}-${number}` ? T : never;
-type tickets = JiraTicketsFormat<"FEG-32" | "asdadss-asdasd" | "---" | "123" | "CATS-312" | "DEVX-132">
 
 
 
@@ -86,27 +83,4 @@ type tickets = JiraTicketsFormat<"FEG-32" | "asdadss-asdasd" | "---" | "123" | "
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// <T> = T extends `${string}-${number}` ? T : never;
+// T extends number ? true : false;

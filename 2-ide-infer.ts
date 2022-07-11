@@ -1,12 +1,39 @@
 
-const x = 20;
+let x = 20;
 
 
-function func(num: string | number) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function toLowercase(num: string | number) {
   if (typeof num === 'string') {
-    return 1;
+    return num.toLowerCase();
   } else {
-    return 2;
+    return num;
   }
 }
 
