@@ -1,5 +1,5 @@
 // 1. it is not reccomended to use enums
-// 2. a better pattern for "enums" using union types
+// 2. there is a better pattern for "enums" using union types
 
 // type Brand = "Outbrain" | "Taboola"
 

@@ -1,4 +1,4 @@
-//Record  https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype
+// Typescript provides some usefull utillity type https://www.typescriptlang.org/docs/handbook/utility-types.html
 
 interface Todo {
   title: string;

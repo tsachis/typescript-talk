@@ -1,3 +1,4 @@
+//example for how typescript compiler infers your code
 
 let x = 20;
 
