@@ -1,4 +1,4 @@
-
+//implement map function using reduce
 const arr = myMap([1,2,3], (item) => item.toString())
 
 

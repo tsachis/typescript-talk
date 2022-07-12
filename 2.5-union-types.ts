@@ -1,7 +1,16 @@
-enum Brands {
-  Apple = "Apple",
-  Microsoft = "Microsoft",
-  Google = "Google"
+// 1. it is not reccomended to use enums
+// 2. a better pattern for "enums" using union types
+
+// type Brand = "Outbrain" | "Taboola"
+
+enum Brand {
+  Outbrain = "Outbrain",
+  Taboola = "Taboola",
 }
 
-const brand: Brands = Brands.Apple;
+function getBrand(b: Brand) {
+  return b
+}
+
+
+getBrand("Outbrain")
