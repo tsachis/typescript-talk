@@ -39,11 +39,11 @@ let x = 20;
 
 
 
-function toLowercase(num: string | number) {
-  if (typeof num === 'string') {
-    return num.toLowerCase();
+function toLowercase(val: string | number) {
+  if (typeof val === 'string') {
+    return val.toLowerCase();
   } else {
-    return num;
+    return val;
   }
 }
 
