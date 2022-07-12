@@ -1,3 +1,5 @@
+//how do we do recursion with type? (let's try to implement the DeepPartial type)
+
 interface Todo {
   title: string;
   description: string;

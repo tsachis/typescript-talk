@@ -1,6 +1,8 @@
+//how to write conditions in the type syntax?
+
 type isNumber<T> = true
 
-type IsNum = isNumber<30>
+type TestIsNumber = isNumber<string>
 
 
 

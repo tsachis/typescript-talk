@@ -1,10 +1,11 @@
+//how can we loop over type properties?
+
 type User = {
   name: string;
   email: string;
   isAdmin?: boolean;
 }
 
-type NewUser = any
 
 
 
